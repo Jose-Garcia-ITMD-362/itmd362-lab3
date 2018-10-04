@@ -204,7 +204,23 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html{
+  font-family: magallanes, "Times New Roman", sans-serif;
+  font-size: 1.375em; /* 22px */
+}
+
+
 /* ===== MODULAR STYLES ===== */
 
+
+
 /* ===== STATE STYLES ======= */
+
+
+
 
