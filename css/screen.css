@@ -216,6 +216,7 @@ html{
   text-rendering: optimizeLegibility; 
   padding: 1.182em; /* 26px / ~ 120% */ 
   line-height: 1.182em; /* 26px / ~ 120% */ 
+  text-align: center;
 }
 
 label{ 
@@ -231,6 +232,11 @@ h1{
   text-align: center; 
 }
 
+p{
+  padding: 1.182; /* 26px / ~ 120% */ 
+  width: 75%;
+  text-align: center;
+}
 
 /* ===== MODULAR STYLES ===== */
 
