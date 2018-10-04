@@ -191,22 +191,8 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
-/* html {
-  font-size: 1.375em; /* 22px */
-/*  line-height: 1.182em; /* 26px / ~ 120% */
-/*  padding: 1.182em; /* 26px / ~ 120% */
-/*  text-rendering: optimizeLegibility;
-} */
-
-/* label {
-  display: block;
-} 
-*/
-
-/* ===== LAYOUT STYLES ====== */
-
 html{
-  font-family: verdana, "Times New Roman", sans-serif;
+  font-family: 'merriweather', "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
   background-color: rgb(107, 108, 111); 
   text-rendering: optimizeLegibility; 
@@ -219,19 +205,23 @@ label{
   display: block;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
+/* ===== LAYOUT STYLES ====== */
+
+
 h1{
-  font-family: symbola, "Times New Roman", sans-serif;
+  font-family: 'muli', "Times New Roman", sans-serif;
   font-size: 2em; /* 26px / ~ 120% */ 
-  padding: 1.182; /* 26px / ~ 120% */ 
+  padding: 1.182em; /* 26px / ~ 120% */ 
   line-height: 1.182em; /* 26px / ~ 120% */ 
   text-align: center; 
 }
 
 p{
-  padding: 1.182; /* 26px / ~ 120% */ 
-  width: 75%;
+  padding: 1.182em; /* 26px / ~ 120% */ 
+  width: 100%;
   line-height: 1.182em; /* 26px / ~ 120% */ 
   text-align: center;
 }
@@ -239,38 +229,55 @@ p{
 /* ===== MODULAR STYLES ===== */
 
 input{
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; 
-  width: 85%;
-  height: 35px;
-  padding: 1.182; /* 26px / ~ 120% */ 
+  width: auto;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 1.182em; /* 26px / ~ 120% */ 
   box-sizing: border-box;
   background-color: rgb(143, 147, 161); 
 }
 
 #input-email{
-  font-family: lato, "Times New Roman", sans-serif;
-  font-size: 1.375em; /* 22px */
+  font-family: 'noto serif', "Times New Roman", sans-serif;
   font-weight: bold;
-  line-height: 1.182em; /* 26px / ~ 120% */ 
-  padding: 1.182; /* 26px / ~ 120% */ 
   text-align: center; 
 }
 
 #input-submit{
-  font-family: lato, "Times New Roman", sans-serif;
+  font-family: 'bitter', "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */ 
-  padding: 1.182; /* 26px / ~ 120% */ 
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */ 
   text-align: center; 
 }
 
 #input-age-verification{
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */ 
-  padding: 1.182; /* 26px / ~ 120% */ 
   text-align: center; 
+}
+
+input[type="email"]{
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+input[type="checkbox"]{
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type="submit"]{
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
 }
 
 
