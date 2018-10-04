@@ -240,6 +240,17 @@ p{
 
 /* ===== MODULAR STYLES ===== */
 
+input{
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; 
+  width: 85%;
+  height: 35px;
+  padding: 1.182; /* 26px / ~ 120% */ 
+  box-sizing: border-box;
+  background-color: rgb(143, 147, 161); 
+}
+
 
 
 /* ===== STATE STYLES ======= */
