@@ -210,8 +210,10 @@ label {
 */
 
 html{
-  font-family: magallanes, "Times New Roman", sans-serif;
+  font-family: verdana, "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
+  background-color: rgb(238, 198, 188); 
+  text-rendering: optimizeLegibility; 
 }
 
 
