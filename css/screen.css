@@ -205,6 +205,7 @@ label{
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 50%;
   text-align: center;
 }
 
@@ -240,6 +241,7 @@ input{
 
 #input-email{
   font-family: 'noto serif', "Times New Roman", sans-serif;
+  font-size: 1.375em; /* 22px */
   font-weight: bold;
   text-align: center; 
 }
@@ -262,7 +264,7 @@ input[type="email"]{
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  width: 60%;
+  width: 65%;
 }
 
 input[type="checkbox"]{
