@@ -218,6 +218,19 @@ html{
   line-height: 1.182em; /* 26px / ~ 120% */ 
 }
 
+label{ 
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+  font-family: symbola, "Times New Roman", sans-serif;
+  font-size: 2em; /* 26px / ~ 120% */ 
+  padding: 1.182; /* 26px / ~ 120% */ 
+  text-align: center; 
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
