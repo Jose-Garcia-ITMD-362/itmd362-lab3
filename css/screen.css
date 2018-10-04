@@ -254,11 +254,14 @@ input{
 #input-email{
   font-family: lato, "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
+  font-weight: bold;
+  padding: 1.182; /* 26px / ~ 120% */ 
 }
 
 #input-submit{
   font-family: lato, "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
+  padding: 1.182; /* 26px / ~ 120% */ 
 }
 
 
