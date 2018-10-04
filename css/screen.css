@@ -251,6 +251,18 @@ input{
   background-color: rgb(143, 147, 161); 
 }
 
+#input-email{
+  font-family: lato, "Times New Roman", sans-serif;
+  font-size: 1.375em; /* 22px */
+}
+
+#input-submit{
+  font-family: lato, "Times New Roman", sans-serif;
+  font-size: 1.375em; /* 22px */
+}
+
+
+
 
 
 /* ===== STATE STYLES ======= */
