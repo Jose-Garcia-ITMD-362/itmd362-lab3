@@ -264,12 +264,32 @@ input{
   padding: 1.182; /* 26px / ~ 120% */ 
 }
 
-
-
+#input-age-verification{
+  font-size: 1.375em; /* 22px */
+  padding: 1.182; /* 26px / ~ 120% */ 
+}
 
 
 /* ===== STATE STYLES ======= */
 
+/* .hasjs class will only exist if js runs */ 
+.hasjs #input-email{
+  position: relative;
+}
 
+.hasjs #input-email label{
+  transition: top 1s;
+  top: 26px;
+  left: 20px;
+  position: absolute;
+}
 
+.hasjs #input-email label.active{
+  top: -15px;
+}
+
+.hasjs #age-verification{
+  left: 6000px;
+  position: static;
+}
 
