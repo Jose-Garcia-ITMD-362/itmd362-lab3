@@ -191,23 +191,19 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
-html {
+/* html {
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
-}
+/*  line-height: 1.182em; /* 26px / ~ 120% */
+/*  padding: 1.182em; /* 26px / ~ 120% */
+/*  text-rendering: optimizeLegibility;
+} */
 
-label {
+/* label {
   display: block;
-}
+} 
+*/
 
 /* ===== LAYOUT STYLES ====== */
-
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
 
 html{
   font-family: verdana, "Times New Roman", sans-serif;
@@ -229,12 +225,14 @@ h1{
   font-family: symbola, "Times New Roman", sans-serif;
   font-size: 2em; /* 26px / ~ 120% */ 
   padding: 1.182; /* 26px / ~ 120% */ 
+  line-height: 1.182em; /* 26px / ~ 120% */ 
   text-align: center; 
 }
 
 p{
   padding: 1.182; /* 26px / ~ 120% */ 
   width: 75%;
+  line-height: 1.182em; /* 26px / ~ 120% */ 
   text-align: center;
 }
 
@@ -255,18 +253,24 @@ input{
   font-family: lato, "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
   font-weight: bold;
+  line-height: 1.182em; /* 26px / ~ 120% */ 
   padding: 1.182; /* 26px / ~ 120% */ 
+  text-align: center; 
 }
 
 #input-submit{
   font-family: lato, "Times New Roman", sans-serif;
   font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */ 
   padding: 1.182; /* 26px / ~ 120% */ 
+  text-align: center; 
 }
 
 #input-age-verification{
   font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */ 
   padding: 1.182; /* 26px / ~ 120% */ 
+  text-align: center; 
 }
 
 
